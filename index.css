@@ -22,22 +22,26 @@ body{
 
 .searchbar{
     display: flex;
+    align-items: center;
     height: 30px;
+    position: relative;
 }
 
 .searchbar__input{
     width: clamp(200px, 25vw, 500px);
-    height: 30px;
+    height: 100%;
     border: 1px solid #fff;
     background-color: transparent;
     color: #fff;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px;
     outline: none;
     font-size: 18px;
 }
 
 .searchbar__btn{
-    height: 34px;
+    position: absolute;
+    right: 2px;
+    height: 100%;
     border: 1px solid #fff;
     background-color: #fff;
     color: #000;
