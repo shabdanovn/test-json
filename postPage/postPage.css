@@ -27,6 +27,8 @@ img{
 }
 
 .post-title{
+    color: rgb(210, 210, 39);
+    text-align: center;
     font-size: 28px;
     font-weight: 600;
 }
@@ -42,3 +44,24 @@ img{
     margin: 0 5% 0 0;
 }
 
+@media screen and (max-width: 750px) {
+    .post-page{
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .post{
+        width: 100%;
+    }
+
+    .post-author, .post-email, .post-phone{
+        font-size: 20px;
+    }
+
+    .post-phone{
+        margin-bottom: 2rem;
+    }
+}
